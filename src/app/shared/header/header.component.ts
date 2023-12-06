@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { InfoPagina } from 'src/app/interfaces/info-pagina.interface';
+import { InfoPaginaService } from 'src/app/services/info-pagina.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -7,4 +8,14 @@ import { RouterLink } from '@angular/router';
 })
 export class HeaderComponent {
 
+  infoPagina!: InfoPagina;
+  constructor(private _infoPaginaService: InfoPaginaService) {
+    
+  }
+  
+  ngOnInit() {
+    this.infoPagina = this._infoPaginaService.info;
+    console.log(this.infoPagina)
+
+  }
 }
