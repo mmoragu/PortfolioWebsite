@@ -4,6 +4,7 @@ export interface InfoPagina {
   shortName?: string;
   autorPage?: string;
   facebook?: string;
+  twitter?:string;
   instragram?: string;
   tublr?: string;
   workTeam?: any[];

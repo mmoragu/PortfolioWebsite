@@ -1,10 +1,11 @@
 {
     "title":"MMA Pagina",
-    "email":"morato812@gmail.com",
+    "email":"email@gmail.com",
     "shortName":"Manuel",
     "autorPage":"autorPageModel",
-    "facebook":"facebook.com",
-    "instragram":"instagram.com",
-    "tublr":"tumblr.com",
+    "facebook":"https://www.facebook.com/",
+    "instragram":"https://instagram.com",
+    "twitter": "https://twitter.com",
+    "tublr":"https://tumblr.com",
     "workTeam":[]
 }

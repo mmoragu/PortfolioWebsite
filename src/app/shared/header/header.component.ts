@@ -8,14 +8,11 @@ import { InfoPaginaService } from 'src/app/services/info-pagina.service';
 })
 export class HeaderComponent {
 
-  infoPagina!: InfoPagina;
-  constructor(private _infoPaginaService: InfoPaginaService) {
+  constructor(public _infoPaginaService: InfoPaginaService) {
     
   }
   
   ngOnInit() {
-    this.infoPagina = this._infoPaginaService.info;
-    console.log(this.infoPagina)
 
   }
 }
