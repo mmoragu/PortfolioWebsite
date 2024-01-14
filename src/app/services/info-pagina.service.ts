@@ -16,7 +16,6 @@ export class InfoPaginaService {
 
     this.cargarInfo();
     this.cargarEquipo();
-
   }
 
   private cargarInfo() {
@@ -25,7 +24,6 @@ export class InfoPaginaService {
       this.cargada = true;
       this.info = resp;
     });
-
   }
 
   private cargarEquipo() {
@@ -34,6 +32,5 @@ export class InfoPaginaService {
       this.cargada = true;
       this.equipo = resp;
     });
-
   }
 }
