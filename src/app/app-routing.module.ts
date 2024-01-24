@@ -8,7 +8,7 @@ const routes: Routes = [
   {path:'',component:PortfolioComponent, pathMatch:'full'},
   {path:'home',component:PortfolioComponent, pathMatch:'full'},
   {path:'about', component:AboutComponent, pathMatch:'full'},
-  {path:'item',component:ItemComponent, pathMatch:'full'},
+  {path:'item/:id',component:ItemComponent, pathMatch:'full'},
   { path: '**', component: PortfolioComponent ,pathMatch : 'full'}
 
 ];
